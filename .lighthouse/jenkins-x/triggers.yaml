@@ -14,3 +14,9 @@ spec:
     branches:
     - ^main$
     - ^master$
+  - name: buildProd
+    context: "buildProd"
+    source: "buildProd.yaml"
+    branches:
+    - ^main$
+    - ^master$
